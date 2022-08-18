@@ -13,6 +13,6 @@ This was written in Go Lang. It converts time between timezones.
 Example:
 
 ```
-go run .\rka-time-converter.go -tz America/Los_Angeles -time 22:25
+go run rka-time-converter.go -tz America/Los_Angeles -time 22:25
 22:25 is 18:25 in America/Los_Angeles
 ```
