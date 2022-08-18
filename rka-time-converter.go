@@ -24,7 +24,6 @@ func main() {
 	if *inputTime == "" {
 		timeToConvert = time.Now()
 	} else {
-
 		parsedInputTime, err := time.Parse(timeLayout, *inputTime)
 		if err != nil {
 			log.Fatal("Could not parse time: ", err)
